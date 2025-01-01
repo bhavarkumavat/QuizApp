@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+/*main container*/
+#prime{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+
+#questions-section, #graphics-section{
+    border: 2px solid red;
+    margin : 0.5rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50%;
+}
+
+/*container that has question and graphics section*/
+#container-1{
+    border: 2px solid red;
+    display: flex;
+    margin: 0.5rem;
+    flex-basis: 30rem;
+    width : 60rem;
+    flex-direction: column;
+}
+
+/*container that has control box*/
+#container-2{
+    border: 2px solid red;
+    display: flex;
+    margin: 0.5rem;
+    flex-basis: 10rem;
+    width: 60rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#container-2>*{
+    border: 2px dashed red;
+    flex-grow : 1;
+    flex-shrink: 1;
+    flex-basis: 1;
+    margin: 1rem;
+    max-height: 80%;
+    height: 2rem;
+}

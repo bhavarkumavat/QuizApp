@@ -1,0 +1,19 @@
+
+[
+    {
+        "question" : "What is the least count of vernier",
+        "options":["0.01 mm Vernier","0.02 mm Vernier","0.1 mm Vernier","0.5 mm Vernier"],
+        "answer": "0.02 mm",
+        "image_reference":null,
+        "question_id":"1",
+        "type":"radio"
+    },
+    {
+        "question" : "What is the least count of Micrometer",
+        "answer": "0.02 mm",
+        "image_reference":null,
+        "question_id":"1",
+        "type":"text"
+    }
+    
+]
