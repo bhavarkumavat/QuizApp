@@ -1,12 +1,30 @@
-
-let globalCounter = 0
-
 console.log("Loaded")
+
 
 const main = async function () {
     const question_container = document.getElementById('questions-section');
     const question_set_1 = await (await fetch('questions.json')).json();
 
+
+    const quiz_time = 10 //seconds
+    let time_elasped = 0;
+    let intervalID;
+
+    const timer = () => {
+        let timerTag = document.getElementById("quiz-time")
+        time_elasped += 1
+
+        let time_left = quiz_time - time_elasped
+
+        if(time_left <=0){
+            clearInterval(intervalID)
+            disableNextButton()
+        }
+
+        timerTag.textContent = time_left
+    }
+
+    intervalID = setInterval(timer, 1000)
 
     //this will be replaced with a function designed to select 20 random questions
 
@@ -86,7 +104,7 @@ const main = async function () {
             let option_tag = document.createElement("input")
 
             option_tag.setAttribute("type", "number")
-            option_tag.setAttribute("data-id", "option")
+            option_tag.setAttribute("data-id", "text-option")
             option_tag.setAttribute("class", "option")
 
 
@@ -110,6 +128,7 @@ const main = async function () {
             imageSectionTag.innerHTML = image_tag.outerHTML
 
         }
+
     }
 
     function* provideQuiz() {
@@ -131,42 +150,35 @@ const main = async function () {
 
     nextButton.addEventListener("click", (event) => {
 
-        //get data !
-        if (document.querySelector('input[type="radio"]')) {
-            let selectedOption = document.querySelector('input[data-id="option"]:checked')
-            if (selectedOption) {
-                let question = document.querySelector("[data-id='question']")
-                console.log(question.getAttribute("data-custom-correct-answer"))
-                console.log(selectedOption.value)
-            }
-            else {
-                alert("Please select an option")
-                return
-            }
+        //store the quiz
+        let questionTag = document.querySelector("[data-id='question']")
 
+        let question = questionTag.textContent
+        let correctAnswer = questionTag.getAttribute("data-custom-correct-answer")
+
+        let answer = (document.querySelector('[data-id="option"]:checked') || document.querySelector('[data-id="text-option"]'))
+
+
+        //check the user input
+        if (answer == null || answer.value == null || answer.value.length == 0) {
+            alert("Please select an answer")
+            return
         }
 
-        else if (document.querySelector('input[type="number"]')) {
-            let selectedOption = document.querySelector('input[data-id="option"]')
-            if (selectedOption) {
-                console.log(selectedOption.value)
-            }
-            else {
-                alert("Please enter a value")
-                return
-            }
-
-        }
+        console.log(`${question}\n${answer.value}\n${correctAnswer}`)
 
         //get the next quiz
         let quiz = quizProvider.next()
 
-        //load the next quiz
-        loadQuiz(quiz.value)
-
         //check if the quiz is done
         if (quiz.done === true) {
+            //disable !
             disableNextButton()
+        }
+
+        else {
+            //if not run !!
+            loadQuiz(quiz.value)
         }
     })
 
