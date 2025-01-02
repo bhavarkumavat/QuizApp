@@ -135,6 +135,8 @@ const main = async function () {
         if (document.querySelector('input[type="radio"]')) {
             let selectedOption = document.querySelector('input[data-id="option"]:checked')
             if (selectedOption) {
+                let question = document.querySelector("[data-id='question']")
+                console.log(question.getAttribute("data-custom-correct-answer"))
                 console.log(selectedOption.value)
             }
             else {
