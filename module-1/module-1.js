@@ -21,7 +21,7 @@ const main = async ()=>{
         let answer_container = document.querySelector("[data-control-id='answer-container']")
     
         //reset all the data for display
-        image_label.src = quiz.image_reference
+        image_label.backgroundImage = quiz.image_reference
         question_label.textContent = quiz.question
         answer_container.innerHTML = ""
         

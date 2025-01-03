@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    .container{
+        border: 2px solid red;
+        min-height: 50rem;
+        width: 40rem;
+        display: grid;
+        grid-template-rows: 10rem 40rem 0.25fr;
+    }
+}
