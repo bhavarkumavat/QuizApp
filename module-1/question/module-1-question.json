@@ -1,0 +1,29 @@
+[
+    {
+        "question":"What is the least count of a Micrometer ?",
+        "options":["0.01mm","0.001mm","0.1mm","0.0001mm"],
+        "image_reference":"",
+        "correct_answer":"0.01mm",
+        "answer_accuracy":0,
+        "tolerance":0,
+        "id":0
+    },
+    {
+        "question":"What is the Micrometer used to measure ?",
+        "options":["outer diameter of a part","inner diameter of a part"],
+        "image_reference":"",
+        "correct_answer":"outer diameter of a part",
+        "answer_accuracy":0,
+        "tolerance":0,
+        "id":1
+    },
+    {
+        "question":"What is the Vernier Calipers inside Jaws used to measure ?",
+        "options":["outer diameter of a part","inner diameter of a part"],
+        "image_reference":"",
+        "correct_answer":"inner diameter of a part",
+        "answer_accuracy":0,
+        "tolerance":0,
+        "id":1
+    }
+]
