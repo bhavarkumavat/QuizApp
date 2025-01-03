@@ -45,7 +45,7 @@ body{
 
             div[data-control-id="image-label"]{
                 min-height : 20rem;
-                background-color: #ffb2b2;
+                background-color: #5df371;
                 margin-bottom : 1rem;
                 background-size: cover;
             }

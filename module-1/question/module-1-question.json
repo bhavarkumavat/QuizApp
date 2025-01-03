@@ -1,29 +1,166 @@
 [
     {
-        "question":"What is the least count of a Micrometer ?",
-        "options":["0.01mm","0.001mm","0.1mm","0.0001mm"],
-        "image_reference":"",
-        "correct_answer":"0.01mm",
-        "answer_accuracy":0,
-        "tolerance":0,
-        "id":0
+        "question": "नीचे दी गई छवि से वर्नियर कैलिपर का उपयोग करके मापने का सही तरीका क्या है ?",
+        "options": [
+            "विकल्प A, किसी Product को मापने का एक सटीक तरीका है",
+            "विकल्प B, किसी Product को मापने का एक सटीक तरीका है"
+        ],
+        "image_reference": "/module-1/images/0.png",
+        "correct_answer": "विकल्प A, किसी Product को मापने का एक सटीक तरीका है",
+        "answer_accuracy": 0,
+        "tolerance": 0,
+        "id": 0
     },
     {
-        "question":"What is the Micrometer used to measure ?",
-        "options":["outer diameter of a part","inner diameter of a part"],
-        "image_reference":"",
-        "correct_answer":"outer diameter of a part",
-        "answer_accuracy":0,
-        "tolerance":0,
-        "id":1
+        "question": "वर्नियर कैलिपर का मुख्य उपयोग क्या है?",
+        "options": [
+            "वज़न मापने के लिए",
+            "दूरी मापने के लिए",
+            "आयतन मापने के लिए",
+            "लंबाई, गहराई और व्यास मापने के लिए"
+        ],
+        "image_reference": null,
+        "correct_answer": "लंबाई, गहराई और व्यास मापने के लिए",
+        "answer_accuracy": 0,
+        "tolerance": 0,
+        "id": 0
     },
     {
-        "question":"What is the Vernier Calipers inside Jaws used to measure ?",
-        "options":["outer diameter of a part","inner diameter of a part"],
-        "image_reference":"",
-        "correct_answer":"inner diameter of a part",
-        "answer_accuracy":0,
-        "tolerance":0,
-        "id":1
+        "question": "वर्नियर स्केल और मुख्य स्केल में मुख्य अंतर क्या है?",
+        "options": [
+            "वर्नियर स्केल बड़ा होता है",
+            "मुख्य स्केल छोटी इकाइयों को मापता है",
+            "वर्नियर स्केल अति सूक्ष्म माप करता है",
+            "दोनों का कोई अंतर नहीं है"
+        ],
+        "image_reference": null,
+        "correct_answer": "वर्नियर स्केल अति सूक्ष्म माप करता है",
+        "answer_accuracy": 0,
+        "tolerance": 0,
+        "id": 0
+    },
+    {
+        "question": "वर्नियर कैलिपर की least count (सबसे छोटी गणना) कितनी हो सकती है?",
+        "options": [
+            "0.1mm",
+            "0.02mm",
+            "0.001mm",
+            "1.0mm"
+        ],
+        "image_reference": null,
+        "correct_answer": "0.02mm",
+        "answer_accuracy": 0,
+        "tolerance": 0,
+        "id": 0
+    },
+    {
+        "question": "वर्नियर कैलिपर का कौन सा भाग गहराई मापने के लिए उपयोग किया जाता है?",
+        "options": [
+            "मुख्य स्केल",
+            "वर्नियर स्केल",
+            "गहराई मापने की छड़",
+            "भीतरी जबड़े"
+        ],
+        "image_reference": null,
+        "correct_answer": "गहराई मापने की छड़",
+        "answer_accuracy": 0,
+        "tolerance": 0,
+        "id": 0
+    },
+    {
+        "question": "वर्नियर कैलिपर के भीतरी जबड़े (inside jaws) का उपयोग किसके लिए किया जाता है?",
+        "options": [
+            "बाहरी व्यास मापने के लिए",
+            "गहराई मापने के लिए",
+            "भीतरी व्यास मापने के लिए",
+            "किसी भी माप के लिए उपयोगी नहीं है"
+        ],
+        "image_reference": null,
+        "correct_answer": "भीतरी व्यास मापने के लिए",
+        "answer_accuracy": 0,
+        "tolerance": 0,
+        "id": 0
+    },
+    {
+        "question": "वर्नियर कैलिपर के बाहरी जबड़े (External jaws) का उपयोग किसके लिए किया जाता है?",
+        "options": [
+            "बाहरी व्यास मापने के लिए",
+            "गहराई मापने के लिए",
+            "भीतरी व्यास मापने के लिए",
+            "किसी भी माप के लिए उपयोगी नहीं है"
+        ],
+        "image_reference": null,
+        "correct_answer": "बाहरी व्यास मापने के लिए",
+        "answer_accuracy": 0,
+        "tolerance": 0,
+        "id": 0
+    },
+    {
+        "question": "नीचे दी गई छवि से वर्नियर कैलिपर का उपयोग करके गहराई मापने का सही तरीका क्या है ?",
+        "options": [
+            "विकल्प A, किसी गहराई को मापने का एक सटीक तरीका है",
+            "विकल्प B, किसी गहराई को मापने का एक सटीक तरीका है"
+        ],
+        "image_reference": "/module-1/images/100.png",
+        "correct_answer": "विकल्प A, किसी गहराई को मापने का एक सटीक तरीका है",
+        "answer_accuracy": 0,
+        "tolerance": 0,
+        "id": 0
+    },
+    {
+        "question": "माइक्रोमीटर का मुख्य उपयोग क्या है?",
+        "options": [
+            "बड़े उपकरण मापने के लिए",
+            "अत्यधिक सटीक माप के लिए",
+            "दूरी मापने के लिए",
+            "भार मापने के लिए"
+        ],
+        "image_reference": null,
+        "correct_answer": "अत्यधिक सटीक माप के लिए",
+        "answer_accuracy": 0,
+        "tolerance": 0,
+        "id": 0
     }
+    ,
+    {
+        "question": "माइक्रोमीटर की least count सामान्यतः कितनी होती है?",
+        "options": [
+            "0.1mm",
+            "1mm",
+            "0.01mm",
+            "0.02mm"
+        ],
+        "image_reference": null,
+        "correct_answer": "0.01mm",
+        "answer_accuracy": 0,
+        "tolerance": 0,
+        "id": 0
+    },
+    {
+        "question": "माइक्रोमीटर का कौन सा भाग मापने के लिए वस्तु को पकड़ता है?",
+        "options": [
+            "फ्रेम",
+            "एनविल और स्पिंडल",
+            "रैचेट स्टॉप",
+            "थिम्बल"
+        ],
+        "image_reference": null,
+        "correct_answer": "एनविल और स्पिंडल",
+        "answer_accuracy": 0,
+        "tolerance": 0,
+        "id": 0
+    },
+    {
+        "question": "नीचे प्रदर्शित छवि से माइक्रोमीटर से मापने का सही तरीका क्या है?",
+        "options": [
+            "विकल्प A, सही है, हमेशा थिम्बल का उपयोग करके माइक्रोमीटर स्केल को घुमाएँ",
+            "विकल्प B, हमेशा रैचेट स्टॉप का उपयोग करके माइक्रोमीटर स्केल को घुमाने के लिए सही है"
+        ],
+        "image_reference": "/module-1/images/200.png",
+        "correct_answer": "विकल्प B, हमेशा रैचेट स्टॉप का उपयोग करके माइक्रोमीटर स्केल को घुमाने के लिए सही है",
+        "answer_accuracy": 0,
+        "tolerance": 0,
+        "id": 0
+    }
+
 ]

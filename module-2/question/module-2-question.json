@@ -1,0 +1,50 @@
+[
+    {
+        "question": "Solve 10.05 + 0.03",
+        "options": [
+            10.07,10.08,10.09,10.02
+        ],
+        "image_reference": null,
+        "correct_answer": 10.08,
+        "answer_accuracy": 0,
+        "tolerance": 0,
+        "id": 0
+    }
+,
+    {
+        "question": "Solve 10.25 + 0.25",
+        "options": [
+            10.07,10.50,10.250,10.05
+        ],
+        "image_reference": null,
+        "correct_answer": 10.50,
+        "answer_accuracy": 0,
+        "tolerance": 0,
+        "id": 0
+    }
+    ,
+    {
+        "question": "Solve 12.05 - 0.03",
+        "options": [
+            12.08,12.02,12.04,12.00
+        ],
+        "image_reference": null,
+        "correct_answer": 12.02,
+        "answer_accuracy": 0,
+        "tolerance": 0,
+        "id": 0
+    }
+,
+    {
+        "question": "Solve 11.950 - 0.03",
+        "options": [
+            11.820,11.920,11.970,11.910
+        ],
+        "image_reference": null,
+        "correct_answer": 11.920,
+        "answer_accuracy": 0,
+        "tolerance": 0,
+        "id": 0
+    }
+    
+]

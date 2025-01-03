@@ -1,0 +1,14 @@
+[
+    {
+        "question": "Measure dimension A using a Micrometer ?",
+        "options": [
+            10.07,10.08,10.09,10.02
+        ],
+        "image_reference": null,
+        "correct_answer": 10.07,
+        "answer_accuracy": 0,
+        "tolerance": 0.01,
+        "id": 0
+    }
+
+]

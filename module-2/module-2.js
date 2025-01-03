@@ -6,7 +6,7 @@ const main = async ()=>{
     //declarations !
     const number_of_questions = 5
     let current_question = 0;
-    const question_bank = await((await fetch('question/module-1-question.json')).json())
+    const question_bank = await((await fetch('question/module-2-question.json')).json())
     let answer_sheet = []
     
     const next_question_button = document.querySelector("[data-control-id='next-question-button']")
@@ -48,7 +48,7 @@ const main = async ()=>{
         }
         else{
             image_label.style.background = "none"
-            image_label.style.backgroundColor = "#ffb2b2"
+            image_label.style.backgroundColor = "#5df371"
         }
         question_label.textContent = quiz.question
         answer_container.innerHTML = ""
