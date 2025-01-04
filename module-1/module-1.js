@@ -16,7 +16,7 @@ const main = async ()=>{
 
     const timer_label = document.querySelector("[data-control-id='timer-label']")
     
-    const max_time = 60 //seconds
+    const max_time = 720 //seconds
     let elasped_time = 0
     let time_left = max_time
     let interval = 1000 //interval seconds

@@ -1,0 +1,46 @@
+[
+    {
+        "question": "नीचे दी गई छवि से, हम क्या माप रहे हैं?",
+        "options": [
+            "Symmetry",
+            "Perpendicularity",
+            "runout",
+            "parallelism"
+        ],
+        "image_reference": "/module-4/images/0.png",
+        "correct_answer": "Perpendicularity",
+        "answer_accuracy": 0,
+        "tolerance": 0,
+        "id": 0
+    }
+,
+    {
+        "question": "नीचे दी गई छवि से, हम क्या माप रहे हैं?",
+        "options": [
+            "Symmetry",
+            "Perpendicularity",
+            "runout",
+            "Parallelism"
+        ],
+        "image_reference": "/module-4/images/1.png",
+        "correct_answer": "Parallelism",
+        "answer_accuracy": 0,
+        "tolerance": 0,
+        "id": 0
+    },
+    {
+        "question": "नीचे दी गई छवि से, हम क्या माप रहे हैं?",
+        "options": [
+            "Symmetry",
+            "Perpendicularity",
+            "runout",
+            "Parallelism"
+        ],
+        "image_reference": "/module-4/images/2.png",
+        "correct_answer": "runout",
+        "answer_accuracy": 0,
+        "tolerance": 0,
+        "id": 0
+    }
+
+]

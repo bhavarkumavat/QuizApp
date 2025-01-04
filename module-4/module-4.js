@@ -6,7 +6,7 @@ const main = async ()=>{
     //declarations !
     const number_of_questions = 5
     let current_question = 0;
-    const question_bank = await((await fetch('question/module-2-question.json')).json())
+    const question_bank = await((await fetch('question/module-4-question.json')).json())
     let answer_sheet = []
     
     const next_question_button = document.querySelector("[data-control-id='next-question-button']")
@@ -16,7 +16,7 @@ const main = async ()=>{
 
     const timer_label = document.querySelector("[data-control-id='timer-label']")
     
-    const max_time = 240 //seconds
+    const max_time = 180 //seconds
     let elasped_time = 0
     let time_left = max_time
     let interval = 1000 //interval seconds
@@ -48,7 +48,7 @@ const main = async ()=>{
         }
         else{
             image_label.style.background = "none"
-            image_label.style.backgroundColor = "#5df371"
+            image_label.style.backgroundColor = "#ffb2b2"
         }
         question_label.textContent = quiz.question
         answer_container.innerHTML = ""
@@ -58,8 +58,9 @@ const main = async ()=>{
             let label_element = document.createElement('label')
 
             option_element.type = "radio"
-            option_element.name = option
+            option_element.name = "option"
             option_element.value = option
+            option_element.id=option
 
             label_element.htmlFor = option
             label_element.textContent = option

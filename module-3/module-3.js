@@ -16,7 +16,7 @@ const main = async () => {
 
     const timer_label = document.querySelector("[data-control-id='timer-label']")
 
-    const max_time = 60 //seconds
+    const max_time = 360 //seconds
     let elasped_time = 0
     let time_left = max_time
     let interval = 1000 //interval seconds
@@ -109,7 +109,7 @@ const main = async () => {
             question_label.textContent = `Question : ${answer.question}`
             selected_answer_label.textContent = `Selected Answer : ${answer.selected_answer}`
             correct_answer_label.textContent = `Correct Answer : ${answer.correct_answer} , ${answer.correct_answer+answer.tolerance} , ${answer.correct_answer-answer.tolerance}`
-            accuracy_answer_label.textContent = `Accuracy : ${answer.selected_answer - answer.correct_answer}`
+            accuracy_answer_label.textContent = `Error : ${(100-((answer.selected_answer / answer.correct_answer)*100))}%`
 
             report_summary_container.appendChild(question_id_label)
             report_summary_container.appendChild(question_label)
@@ -134,10 +134,11 @@ const main = async () => {
     //next question handler
     next_question_button.addEventListener('click', () => {
 
-        if (document.querySelector("input[type='number']") == null) {
-            alert("Please select an option")
+        if (document.querySelector("input[type='number']").value.length == 0) {
+            alert("Please enter a input")
             return
         }
+        
 
         //grab the data
         let asked_question = document.querySelector("[data-control-id='question-label']").textContent

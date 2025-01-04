@@ -1,13 +1,67 @@
 [
     {
-        "question": "Measure dimension A using a Micrometer ?",
+        "question": "Measure dimension A using a Vernier marked on the Sample Provided ?",
         "options": [
-            10.07,10.08,10.09,10.02
         ],
-        "image_reference": null,
-        "correct_answer": 10.07,
+        "image_reference": "/module-3/images/1.png",
+        "correct_answer": 8.00,
         "answer_accuracy": 0,
-        "tolerance": 0.01,
+        "tolerance": 0.03,
+        "id": 0
+    }
+,
+    {
+        "question": "Measure dimension B using a Vernier marked on the Sample Provided ?",
+        "options": [
+        ],
+        "image_reference": "/module-3/images/1.png",
+        "correct_answer": 11.99,
+        "answer_accuracy": 0,
+        "tolerance": 0.03,
+        "id": 0
+    }
+    ,
+    {
+        "question": "Measure dimension C using a Vernier marked on the Sample Provided ?",
+        "options": [
+        ],
+        "image_reference": "/module-3/images/1.png",
+        "correct_answer": 14.89,
+        "answer_accuracy": 0,
+        "tolerance": 0.03,
+        "id": 0
+    }
+    ,
+    {
+        "question": "Measure dimension A using a Micrometer marked on the Sample Provided ?",
+        "options": [
+        ],
+        "image_reference": "/module-3/images/1.png",
+        "correct_answer": 9.07,
+        "answer_accuracy": 0,
+        "tolerance": 0.02,
+        "id": 0
+    }
+,
+    {
+        "question": "Measure dimension B using a Micrometer marked on the Sample Provided ?",
+        "options": [
+        ],
+        "image_reference": "/module-3/images/1.png",
+        "correct_answer": 11.500,
+        "answer_accuracy": 0,
+        "tolerance": 0.02,
+        "id": 0
+    }
+    ,
+    {
+        "question": "Measure dimension C using a Vernier marked on the Sample Provided ?",
+        "options": [
+        ],
+        "image_reference": "/module-3/images/1.png",
+        "correct_answer":14.01,
+        "answer_accuracy": 0,
+        "tolerance": 0.02,
         "id": 0
     }
 
