@@ -58,8 +58,9 @@ const main = async ()=>{
             let label_element = document.createElement('label')
 
             option_element.type = "radio"
-            option_element.name = option
+            option_element.name = "option"
             option_element.value = option
+            option_element.id=option
 
             label_element.htmlFor = option
             label_element.textContent = option
